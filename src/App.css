@@ -1,0 +1,122 @@
+.App {
+  background-color: transparent;
+  width: 90%;
+  height: 100%;
+  margin: auto;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.userList {
+  background-color: rgb(226, 226, 235);
+  width: 300px;
+  height: 250px;
+  margin: 20px;
+  border: 1px solid rgb(173, 172, 172);
+  padding-bottom: 10px;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+
+.emailSection p {
+  margin: 0;
+  padding: 0;
+}
+
+.bithSection {
+  margin-top: 20px;
+}
+
+.bithSection p {
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  width: 225px;
+  height: 36px;
+  margin: 6px;
+  background-color: rgb(47, 21, 82);
+  color: #fff;
+  border: none;
+}
+
+.cardButton {
+  padding: 0;
+  width: 40px;
+  height: 40px;
+}
+
+.firs_button {
+  background-color: red;
+  border: none;
+}
+
+.last_button {
+  background-color: #fff;
+  color: gray;
+}
+
+.bottons {
+  margin: 6px;
+  display: flex;
+  justify-content: end
+}
+
+.userForm {
+  display: flex;
+  margin: 20px 100px 0 0;
+  flex-direction: column;
+  justify-content: end;
+  align-items: flex-end;
+}
+
+.cardUser {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.formSection {
+  display: flex;
+  width: 250px;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  border-radius: 8px;
+  background-color: rgb(218, 215, 215);
+  margin: 5px;
+  z-index: 20;
+  padding: 10px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+
+.inputSection {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  margin-left: 5px;
+}
+
+.inputSection input {
+  width: 220px;
+  height: 30px;
+}
+
+.userList h2 {
+  margin: 0 10px;
+}
+
+.element {
+  margin-left: 10px;
+}
+
