@@ -1,4 +1,4 @@
-
+import React from 'react'
 import { useEffect } from 'react'
 import { useForm } from 'react-hook-form'
 
@@ -13,7 +13,7 @@ const UsersForm = ({createUser, updateUserById, objectUpdate, handleSubmit, rese
     }
     
     const submit = data => {
-        if(objectUpdate.id !== undefined) {
+        if(objectUpdate !== undefined) {
             updateUserById(objectUpdate.id, data)
             reset(defaultValuesForm)
         } else {
